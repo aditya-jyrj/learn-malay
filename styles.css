@@ -39,5 +39,13 @@
   z-index: 1;
 }
 
+.teal {
+  color: var(--primary-color)
+}
+
+.magenta {
+  color: var(--secondary-color)
+}
+
 
 
