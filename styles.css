@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #1db5c1;     /* your logo's teal */
+  --primary-color-dark: #15939b; /* darker shade for hover */
+  --secondary-color: #a51d65;   /* your logo's magenta */
+  --secondary-color-dark: #87164f; /* darker magenta for hover */
+  --light-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+
+
+.hero {
+  background: url('images/hero.jpg') right center/cover no-repeat;
+  position: relative;
+  min-height: 70vh;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+
+
