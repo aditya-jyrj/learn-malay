@@ -47,5 +47,17 @@
   color: var(--secondary-color)
 }
 
+.testimonial-img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .testimonial-img {
+    height: 150px;
+  }
+}
+
 
 
