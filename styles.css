@@ -58,3 +58,11 @@
     max-height: 150px;
   }
 }
+
+.email {
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
