@@ -31,12 +31,20 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
   position: relative;
   z-index: 1;
+}
+
+.hero.adults {
+  background: url('images/adults-hero.jpg') right center/cover no-repeat;
+}
+
+.adults.hero::after {
+  backdrop-filter: blur(1px); 
 }
 
 .teal {
