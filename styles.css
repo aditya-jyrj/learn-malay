@@ -47,13 +47,22 @@
   backdrop-filter: blur(1px); 
 }
 
+.magenta {
+  color: var(--primary-color)
+}
+
 .teal {
   color: var(--secondary-color)
 }
 
-.magenta {
-  color: var(--primary-color)
+.bg-teal-light {
+  background-color: #e6f7f8; /* very light teal tint */
 }
+
+.bg-magenta-light {
+  background-color: #fbe7ef; /* very light magenta tint */
+}
+
 
 .testimonial-img {
   object-fit: cover;
