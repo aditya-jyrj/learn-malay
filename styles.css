@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #1db5c1;     /* your logo's teal */
-  --primary-color-dark: #15939b; /* darker shade for hover */
-  --secondary-color: #a51d65;   /* your logo's magenta */
-  --secondary-color-dark: #87164f; /* darker magenta for hover */
+  --primary-color: #a51d65;   /* your logo's magenta */
+  --primary-color-dark: #87164f; /* darker magenta for hover */
+  --secondary-color: #1db5c1;     /* your logo's teal */
+  --secondary-color-dark: #15939b; /* darker shade for hover */
   --light-color: #ffffff;
 }
 
@@ -48,11 +48,11 @@
 }
 
 .teal {
-  color: var(--primary-color)
+  color: var(--secondary-color)
 }
 
 .magenta {
-  color: var(--secondary-color)
+  color: var(--primary-color)
 }
 
 .testimonial-img {
