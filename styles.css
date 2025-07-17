@@ -40,7 +40,7 @@
 }
 
 .hero.adults {
-  background: url('images/adults-hero.jpg') right center/cover no-repeat;
+  background: url('images/courses-adults/adults-hero.jpg') right center/cover no-repeat;
 }
 
 .adults.hero::after {
@@ -48,7 +48,7 @@
 }
 
 .hero.children {
-  background: url('images/children-hero.jpg') center bottom/cover no-repeat;
+  background: url('images/courses-children/children-hero.jpg') center bottom/cover no-repeat;
 }
 
 .magenta {
