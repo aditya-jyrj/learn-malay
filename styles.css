@@ -22,11 +22,11 @@
 }
 
 .nav-link:focus,
-.nav-link:active,
 .dropdown-item:focus,
+.nav-link:active,
 .dropdown-item:active {
-  color: inherit !important;
-  background-color: transparent !important;
+  color: var(--light-color) !important;
+  background-color: var(--secondary-color) !important;
   box-shadow: none !important;
   outline: none !important;
 }
