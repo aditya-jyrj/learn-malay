@@ -9,17 +9,27 @@
 .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-  color: var(--light-color);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active {
-  background-color: var(--primary-color-dark);
-  border-color: var(--primary-color-dark);
+.btn-primary:active,
+.btn-primary:focus-visible {
+  background-color: var(--primary-color-dark) !important;
+  border-color: var(--primary-color-dark) !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
-
+.nav-link:focus,
+.nav-link:active,
+.dropdown-item:focus,
+.dropdown-item:active {
+  color: inherit !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 .hero {
   background: url('images/homepage/hero.jpg') right center/cover no-repeat;
