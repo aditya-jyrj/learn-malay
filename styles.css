@@ -47,6 +47,10 @@
   backdrop-filter: blur(1px); 
 }
 
+.hero.children {
+  background: url('images/children-hero.jpg') center bottom/cover no-repeat;
+}
+
 .magenta {
   color: var(--primary-color)
 }
