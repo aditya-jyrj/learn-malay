@@ -55,4 +55,4 @@ This site is static. Typical options:
 All website content © Agape School of Education.
 
 ## ✉️ Contact
-For site issues or updates, please reach out to me at aditya.jyrj@gmail.com or to the Agape School of Education admin at admin@agapeschool.edu.sg.
+For site issues or updates, please [open an issue](https://github.com/aditya-jyrj/learn-malay/issues/new/choose) on this repository.
