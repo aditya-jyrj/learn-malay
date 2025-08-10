@@ -2,7 +2,7 @@ fetch('/navbar.html')
     .then(res => res.text())
     .then(data => document.getElementById('navbar').innerHTML = data);
 
-fetch('contact-footer.html')
+fetch('/contact-footer.html')
     .then(res => res.text())
     .then(html => {
     document.getElementById('contact-footer').innerHTML = html;
